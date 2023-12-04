@@ -521,12 +521,7 @@ display: flex;
 
 .subscribe-form {
     display: flex;
-}
-
-.subscribe-title {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    gap: 24px;
 }
 
 .enter-mail-field::placeholder {
@@ -547,6 +542,10 @@ display: flex;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);  
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #FFF;;
 }
  
 .subscribe-btn {
@@ -564,7 +563,13 @@ display: flex;
     border-radius: 4px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 165px;
+    height: 40px;
+}
 
+.subscribe-btn-icon {
+    fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 .subscribe-btn:hover,

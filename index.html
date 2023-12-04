@@ -376,11 +376,14 @@
     </div>
     <div class="down-subscribe">
 <form name="subscribe-form">
-  <label class="footer-links-title subscribe-title">
-    Subscribe
-    <input class="enter-mail-field" type="email" name="email" placeholder="E-mail" required/>
-  </label>
-  <button class="subscribe-btn" type="submit">Subscribe</button>
+  <p class="footer-links-title">Subscribe</p>
+  <label for="enter-email" class="footer-links-title subscribe-title"></label>
+  <input id="enter-email" class="enter-mail-field" type="email" name="email" placeholder="E-mail" required/>
+  <button class="subscribe-btn" type="submit">Subscribe
+    <svg class="subscribe-btn-icon" width="24" height="24" aria-label="letter icon">
+      <use href="./images/icons.svg#icon-frame"></use>
+    </svg>
+  </button>
 </form>
     </div>
       </div>
